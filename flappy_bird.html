@@ -1,18 +1,29 @@
 <html>
   <head>
-    <title>Flappy Bird!</title>
+    <title>Noddy Bird!</title>
     <style>
       canvas {
-        position: absolute;
-        top: 0;
-        left: 0;
+            margin-top : 100px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
       }
     </style>
   </head>
   <body>
+  <div>
   <canvas id="game_canvas">
     Your browser does not support canvas. Please try again with a different browser.
   </canvas>
+  </div>
+  <div>
+  <p id="pitchhead" style="top: 10">
+    
+  </p>
+  </div>
   <script src="flappy_bird.js"></script>
+  <script src="flap_gaze.js"> </script>
   </body>
 </html>

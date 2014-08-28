@@ -133,10 +133,10 @@ var onCanvasMouseDown = function(e) {
     bird.v -= 3;
     bird.v = Math.max(-3, bird.v);
   } else if (gameState == 'gameOver') {
-    if ((x > pb.x && x < pb.x + pb.w) &&
-        (y > pb.y && y < pb.y + pb.h)) {
+    //if ((x > pb.x && x < pb.x + pb.w) &&
+        //(y > pb.y && y < pb.y + pb.h)) {
       resetGame();
-    }
+    //}
   }
   //
   // ADD CLICK HANDLING CODE HERE!!!
